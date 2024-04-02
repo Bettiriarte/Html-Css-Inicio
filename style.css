@@ -1,0 +1,91 @@
+#menu-principal {
+  text-align: center;
+  color: white;
+  text-size-adjust: 14;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+}
+nav {
+  height: 100%;
+  max-width: 100%;
+  background-color: black;
+}
+  
+#menu-principal li {
+  flex: auto;
+  list-style: none;
+  padding: 10px;
+}
+#cabecera{
+position: relative;
+}
+#cabecera img {
+  width: 100%;
+  height: 800px;
+  opacity: 0.5;
+}
+#texto-principal{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100px;
+  color:black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#texto-principal h1 {
+  font-size: 50px;
+  font-weight: 100px;
+}
+
+#texto-principal h2 {
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+#texto-principal button {
+  font-size: 15px;
+  font-style: normal;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#texto-principal button:hover {
+  background-color: white;
+  color: black;
+}
+#caja-principal{
+  display: flex;
+  padding: 100px;
+  text-align: center;
+}
+#caja-principal class {
+  flex: auto;
+  padding: 20px;
+}
+
+#caja-principal img {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+#caja-principal h1 {
+  font-size: 30px;
+  font-weight: 80px;
+  text-align: center;
+}
+
+#caja-principal h2 {
+  text-align: justify;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+
+}
